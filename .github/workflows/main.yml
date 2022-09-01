@@ -57,7 +57,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: brigantesco/infra_actions:latest
+          tags: brigantesco/0609b2015b4b:latest
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
